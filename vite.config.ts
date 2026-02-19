@@ -1,9 +1,8 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
 
 export default defineConfig({
-  // Change 'ivy-portfolio' to your actual GitHub repo name
-  base: '/ivy-portfolio/',
+  base: "/portfolio/",
   build: {
-    outDir: 'dist',
+    outDir: "dist",
   },
 });
